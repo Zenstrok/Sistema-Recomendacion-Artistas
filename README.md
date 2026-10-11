@@ -95,8 +95,8 @@ Siga estos pasos para clonar, instalar y ejecutar el prototipo:
 ### 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/AngelicaDiazB14/Prototipo-BD2.git
-cd Prototipo-BD2
+git clone https://github.com/Zenstrok/Sistema-Recomendacion-Artistas.git
+cd Sistema-Recomendacion-Artistas
 ```
 
 ### 2. Backend (FastAPI + Spark)
