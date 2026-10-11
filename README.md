@@ -1,3 +1,18 @@
+# Music Artist Recommendation System — Apache Spark, FastAPI & Angular
+
+> 🇬🇧 **English summary** · Versión en español más abajo.
+
+Team project for the Databases II course at Instituto Tecnológico de Costa Rica. It recommends music artists using **collaborative filtering** with the **ALS (Alternating Least Squares)** algorithm on **Apache Spark**, trained on the Last.fm HetRec 2011 dataset (user–artist listening counts).
+
+- **Data pipeline:** raw `.dat` files are converted to **Parquet** and processed with PySpark.
+- **Model:** ALS learns latent user and artist factors from implicit feedback, excludes artists the user already listens to and ranks the rest by predicted affinity.
+- **API:** a **FastAPI** backend serves recommendations per user.
+- **Frontend:** an **Angular** app with Angular Material displays the recommended artists.
+
+**Tech:** Python · Apache Spark (PySpark, MLlib ALS) · Parquet · FastAPI · Angular · TypeScript
+
+---
+
 # Sistema de Recomendación de artistas musicales con Apache Spark y Angular
 
 Este proyecto implementa un sistema de recomendación de artistas musicales utilizando Apache Spark y el algoritmo ALS (Alternating Least Squares). Cuenta con un frontend en Angular y un backend en FastAPI.
